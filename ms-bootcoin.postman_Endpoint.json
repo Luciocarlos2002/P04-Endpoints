@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "a737e233-04d3-458b-bde0-cd54c8e03441",
+		"name": "ms-bootcoin",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19426929"
+	},
+	"item": [
+		{
+			"name": "ms-bootcoin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"identityDocument\": \"70277538\",\r\n    \"phoneNumber\": \"982797247\",\r\n    \"email\": \"lucio@gmail.com\",\r\n    \"amount\": 90.0,\r\n    \"modePayment\": \"Yanki\",\r\n    \"numberTransaction\": \"7802672983\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8090/bootcoin/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"bootcoin",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ms-bootcoin",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8090/bootcoin/getAllBootcoin",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"bootcoin",
+						"getAllBootcoin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ms-bootcoin",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8090/bootcoin/7802672983",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"bootcoin",
+						"7802672983"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

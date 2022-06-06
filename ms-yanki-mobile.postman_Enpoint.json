@@ -1,0 +1,212 @@
+{
+	"info": {
+		"_postman_id": "c292a450-eecf-4677-963e-a857b6ca2137",
+		"name": "ms-yanki-mobile",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19426929"
+	},
+	"item": [
+		{
+			"name": "ms-yanki-mobile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"amount\": 70.0,\r\n    \"identityDocument\": 70277538,\r\n    \"phoneNumber\": \"982797247\",\r\n    \"email\": \"lucio@gmail.com\",\r\n    \"imeiNumber\": \"3541171101797844/07\",\r\n    \"phoneNumberDestination\": 980172651,\r\n    \"idAccount\": \"628195711d40c21e90afae21\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8087/yanki/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"yanki",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ms-yanki-mobile",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8087/yanki/allYanki",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"yanki",
+						"allYanki"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ms-yanki-mobile",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8087/yanki/982797247",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"yanki",
+						"982797247"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ms-yanki-mobile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"amount\": 70.0,\r\n    \"identityDocument\": 70277538,\r\n    \"phoneNumber\": \"982797247\",\r\n    \"email\": \"lucio@gmail.com\",\r\n    \"imeiNumber\": \"3541171101797844/07\",\r\n    \"phoneNumberDestination\": 980172651,\r\n    \"idAccount\": \"628195711d40c21e90afae21\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8087/yanki/account/yanki",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"yanki",
+						"account",
+						"yanki"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ms-yanki-deposit",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"amount\": 70.0,\r\n    \"identityDocument\": 70277538,\r\n    \"phoneNumber\": \"980172651\",\r\n    \"email\": \"lucio@gmail.com\",\r\n    \"imeiNumber\": \"3541171101797844/07\",\r\n    \"phoneNumberDestination\": 982797247,\r\n    \"idAccount\": \"628195711d40c21e90afae21\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8087/yanki/deposit/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"yanki",
+						"deposit",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ms-yanki-deposit",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8087/yanki/deposit/allYankiDeposit",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"yanki",
+						"deposit",
+						"allYankiDeposit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ms-yanki-deposit",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8087/yanki/deposit/980172651",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"yanki",
+						"deposit",
+						"980172651"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ms-yanki-deposit",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"amount\": 70.0,\r\n    \"identityDocument\": 70277538,\r\n    \"phoneNumber\": \"982797247\",\r\n    \"email\": \"lucio@gmail.com\",\r\n    \"imeiNumber\": \"3541171101797844/07\",\r\n    \"phoneNumberDestination\": 980172651,\r\n    \"idAccount\": \"628195711d40c21e90afae21\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8087/yanki/account/deposit/yanki",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"yanki",
+						"account",
+						"deposit",
+						"yanki"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
